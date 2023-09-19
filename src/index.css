@@ -28,3 +28,14 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
   flex-direction: row;
   justify-content: space-around;
 }
+
+.search-container{
+  display: flex;
+  
+}
+.flexr{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
