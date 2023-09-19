@@ -22,8 +22,13 @@ function ItemDetail({ product }) {
 
   return (
     <div>
+     <div>
       <h2>This is Item Detail Page</h2>
-      <img src={item.imgii} alt={item.name} />
+      <img
+        src={item.imgii}
+        alt={item.name}
+        style={{ maxWidth: '100%', maxHeight: '400px' }} // Adjust the max width and max height as needed
+      />
       <h3>{item.name}</h3>
       <p>Price: {item.Price}</p>
     </div>
