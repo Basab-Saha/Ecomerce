@@ -22,7 +22,6 @@ function ItemDetail({ product }) {
 
   return (
     <div>
-     <div>
       <h2>This is Item Detail Page</h2>
       <img
         src={item.imgii}
